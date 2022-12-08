@@ -54,7 +54,6 @@ internal class Program
         }
     }
 
-    /* Erstes Beispiel
     public static void Points(string zweite, int rock, int paper, int scissors, int d, int w, int l, ref int points)
     {
         if(zweite == "X")
@@ -71,25 +70,7 @@ internal class Program
         }
         Console.WriteLine(points);
     }
-    */
+    
 
-    // Zweites Beispiel
-    public static void Points(string zweite, int rock, int paper, int scissors, int d, int w, int l, ref int points)
-    {
-        if (zweite == "X")
-        {
-            points += rock + d;
-        }
-        else if (zweite == "Y")
-        {
-            points += paper + w;
-        }
-        else
-        {
-            points += scissors + l;
-        }
-        Console.WriteLine(points);
-    }
-
-
+    
 }
